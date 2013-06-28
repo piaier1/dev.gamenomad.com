@@ -1,12 +1,39 @@
+
+==============GIT=================
+
+To put your project on git read this:
+----------Create A Repo:-----------------------
+https://help.github.com/articles/create-a-repo
+
+
+Some other useful tricks:
+
+You won't push anything if you haven't committed it:	
+git add -> git commit -> git push	
+
+git pull origin master
+git checkout public/kiziga_why.pdf 
+git status
+git diff app/views 
+git diff config/routes
+
+git pull origin master
+git status
+
+git add PASTE HERE THE RESULT OF git status      Note : on windows put the result between "   "
+git commit -m "I added the WHY US link to the main page"
+git push origin master
+
+git checkout [to discard the local change]
+run git diff
+
+=================RAILS=================
+
 Use this website for more info on rails:
 
 railscasts.com
 
-=====================================================
-
-
 sudo apt-get install redis-server
-
 
 cd /tmp
 wget http://sphinxsearch.com/files/sphinx-2.0.7-release.tar.gz
@@ -31,41 +58,7 @@ rake ts:rebuild
 rake ts:start
 rails server
 
-==============GIT=================
-To put your project on git read this:
-----------Create A Repo:-----------------------
-https://help.github.com/articles/create-a-repo
 
-You won't push anything if you haven't committed it:	
-git add -> git commit -> git push	
-
-pswd:Xrao_011
-
-git pull origin master
-git checkout public/kiziga_why.pdf 
-git status
-git diff app/views 
-git diff config/routes
-
-git pull origin master
-git status
-
-git add PASTE HERE THE RESULT OF git status
-git commit -m "I added the WHY US link to the main page"
-git push origin master
-
-git checkout [to discard the local change]
-run git diff
----------------------------------------------
-ssh -p 2222 railsu@106.186.19.246
-ssh -p 2222 railsu@106.187.102.62
-------------------------------------------------
-DATA IMPORTATION:
------------------
-@Jean, look at the models: app_form_section/type/field	
-one form : n sections		
-one section: n fields	
-each program has one form	
 
 
 
